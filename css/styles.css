@@ -30,12 +30,10 @@ h2 {
 .btn {
   font-size: 14px;
   padding: 16px 28px;
-  font-weight: 500;
   border: solid 2px transparent;
   border-radius: 5px;
   display: inline-block;
-  -webkit-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
+  font-weight: 600;
 }
 
 .btn--primary {
@@ -414,7 +412,7 @@ h2 {
 .accordion__body {
   padding-top: 26px;
   padding-bottom: 38px;
-  color: #9194a1;
+  color: #757575;
   line-height: 1.5;
 }
 
