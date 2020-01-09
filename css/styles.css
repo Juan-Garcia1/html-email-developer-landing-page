@@ -363,7 +363,7 @@ h2 {
 
 /* ACCORDION */
 .accordion {
-  width: 360px;
+  width: 300px;
   margin: 0 auto 40px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -401,6 +401,10 @@ h2 {
 
 .accordion__header:hover {
   cursor: pointer;
+}
+
+.accordion__header svg {
+  width: 22px;
 }
 
 @media screen and (min-width: 699px) {
