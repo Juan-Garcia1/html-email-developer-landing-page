@@ -186,12 +186,30 @@ h2 {
 /* INSTRUCTOR SECTION */
 .instructor-section {
   text-align: center;
-  height: 25vh;
   margin-bottom: 50px;
 }
 
 .instructor-section__body {
   line-height: 1.5;
+}
+
+@media screen and (min-width: 1440px) {
+  .instructor-section {
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .instructor-section__title {
+    margin-bottom: 0;
+  }
 }
 
 /* COURSE SECTION */
